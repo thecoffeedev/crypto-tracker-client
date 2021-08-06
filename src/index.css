@@ -1,13 +1,37 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.inputContainer {
+  text-align: left;
+  margin-top: 24px;
+}
+
+.currencyCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: left;
+  width: 300px;
+  max-height: 400px;
+  margin: 24px 16px;
+  padding: 16px 8px;
+  border: 1px solid #003638;
+  background-color: #53b8bb;
+  color: #f3f2c9;
+}
+
+.graphContainer {
+  height: 600px;
+  width: 100%;
 }
